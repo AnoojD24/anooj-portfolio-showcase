@@ -61,7 +61,47 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Portfolio-specific colors using design system tokens
+				slate: {
+					900: 'hsl(var(--slate-900))',
+					800: 'hsl(var(--slate-800))',
+					700: 'hsl(var(--slate-700))'
+				},
+				blue: {
+					400: 'hsl(var(--blue-400))',
+					500: 'hsl(var(--blue-500))',
+					600: 'hsl(var(--blue-600))'
+				},
+				purple: {
+					400: 'hsl(var(--purple-400))',
+					500: 'hsl(var(--purple-500))'
+				},
+				pink: {
+					400: 'hsl(var(--pink-400))'
+				},
+				green: {
+					400: 'hsl(var(--green-400))'
+				},
+				orange: {
+					400: 'hsl(var(--orange-400))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-text': 'var(--gradient-text)',
+				'gradient-primary': 'var(--gradient-primary)'
+			},
+			backgroundColor: {
+				'glass': 'var(--glass-bg)',
+				'glass-hover': 'var(--glass-hover)'
+			},
+			borderColor: {
+				'glass': 'var(--glass-border)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
